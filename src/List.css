@@ -1,0 +1,87 @@
+
+.container > h1 {
+    color: white;
+}
+
+.container > h2 {
+    color: white;
+}
+
+.container > h3 {
+    color: white;
+}
+.app-container{
+    float: left;
+    width: 50%;
+    margin-bottom: 20px;
+    margin-left: 25%;
+    transition: 1s;
+    border-radius: 40px;
+    
+    background: url("https://st2.depositphotos.com/2101611/6411/i/600/depositphotos_64111621-stock-photo-light-blue-abstract-background.jpg");
+
+    
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.input {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    margin-left: 25%;
+    width: 25%;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.anadiv {
+    display: flex;
+    
+}
+
+.btn{
+
+    
+    font-weight: 0;
+    font-size: 14px;
+    color: #fff;
+    background-color: #0066CC;
+    padding: 10px 30px;
+    border: 2px solid #0066cc;
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+    border-radius: 50px;
+    transition : 1000ms;
+    transform: translateY(0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    height: 40px;
+    margin-top: 10px;
+    }
+    
+    .btn:hover{
+    
+    transition : 1000ms;
+    padding: 10px 50px;
+    transform : translateY(-0px);
+    background-color: #fff;
+    color: #0066cc;
+    border: solid 2px #0066cc;
+    }
+
+.app-container:hover {
+    transform: scale(1.1);
+}
+@media (min-width: 200px) and (max-width: 1024px) {
+    .container {
+        display: flex;
+        font-size: 10px;
+    }
+   
+}
