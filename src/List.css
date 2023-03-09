@@ -12,12 +12,11 @@
 }
 .app-container{
     float: left;
-    width: 50%;
+    width: 30%;
     margin-bottom: 20px;
-    margin-left: 25%;
+    margin-left: 35%;
     transition: 1s;
     border-radius: 40px;
-    
     background: url("https://st2.depositphotos.com/2101611/6411/i/600/depositphotos_64111621-stock-photo-light-blue-abstract-background.jpg");
 
     
@@ -41,6 +40,7 @@
 
 .anadiv {
     display: flex;
+    margin-left: 15%;
     
 }
 
@@ -82,6 +82,25 @@
     .container {
         display: flex;
         font-size: 10px;
+        
+    }
+    .anadiv{
+        display: flex;
+
+    }
+    .app-container{
+        width: 80%;
+       margin-left: 10%;
+    
+    }
+    .input {
+        display: flex;
+        margin-top: 10px;
+        margin-bottom: 25px;
+        margin-left: 3%;
+        width: 45%;
+        height: 40px;
+        border-radius: 10px;
     }
    
 }
